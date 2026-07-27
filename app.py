@@ -177,7 +177,7 @@ model = artifact['model']
 FEATURES = artifact['feature_columns']
 scaler = artifact.get('scaler')
 use_scaled = artifact.get('use_scaled', False)     # รองรับไฟล์โมเดลเวอร์ชันเก่า
-model_name = artifact.get('model_name', 'SVM')
+model_name = artifact.get('model_name', 'Random Forest')
 results = artifact.get('results')
 
 
